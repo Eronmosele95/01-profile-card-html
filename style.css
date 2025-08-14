@@ -1,0 +1,61 @@
+/* Center all content, set background color, and font for the page */
+body {
+	text-align: center; /* Centers text and inline elements horizontally */
+	background-color: #add8e6; /* Light blue background color */
+	font-family: Arial, Helvetica, sans-serif; /* Clean, readable font */
+}
+
+/* Styles for the profile card container */
+.card {
+	display: inline-block; /* Makes the card fit its content and allows centering */
+	background: #fff; /* White background for the card */
+	border: 2px solid #003366; /* Dark blue border around the card */
+	border-radius: 12px; /* Rounded corners */
+	padding: 32px 24px; /* Space inside the card */
+	margin-top: 48px; /* Space above the card */
+	box-shadow: 0 2px 8px rgba(0,0,0,0.08); /* Subtle shadow for depth */
+}
+
+/* Style the profile image to fit nicely in the card */
+.card img {
+	width: 100px;
+	height: auto;
+	display: block;
+	margin: 0 auto 16px;
+	border-radius: 50%; /* Makes the image circular */
+}
+
+/* Style the list to remove bullet points and add spacing */
+.card ul {
+	list-style: none;
+	padding: 0;
+	margin: 24px 0 0 0;
+}
+.card li {
+	margin-bottom: 12px;
+}
+ .card a {
+	text-decoration: none;
+	color: #003366;
+	font-weight: bold;
+}
+/* Paragraph style for bio text */
+p {
+	font-size: 20px; /* Larger paragraph text */
+	line-height: 1.6; /* Space between lines for readability */
+}
+
+h1 {
+	font-size: 40px;
+	margin-top: 0;
+	color: #003366;
+}
+
+h2 {
+	font-size: 32px;
+	margin-top: 16px;
+	color: #6c757d;
+}
+body {
+	background-color: #add8e6;
+}
